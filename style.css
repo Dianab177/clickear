@@ -19,9 +19,11 @@ code {
     monospace;
 }
 button {
+  width: 4rem;
   border-radius: 2rem;
-  background: linear-gradient(30deg, #7191bf, #86ace3);
+  background: linear-gradient(30deg, #9002f5, #c286e3);
   box-shadow: 0.1rem -0.1rem 0.5rem #7799c9, -0.1rem 0.1rem 0.5rem #83a9df;
+  color: beige;
 }
 
 .App {
@@ -40,7 +42,7 @@ button {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #bea1eb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -51,7 +53,7 @@ button {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb61d2;
 }
 
 @keyframes App-logo-spin {
@@ -67,7 +69,7 @@ button {
   display: inline-block;
   width: 10rem;
   height: 11rem;
-  background: hsl(215, 50%, 65%);
+  background: hsl(277, 99%, 48%);
   border-radius: 80%;
   position: relative;
   box-shadow: inset -10px -10px 0 rgba(0, 0, 0, 0.07);
@@ -91,7 +93,7 @@ button {
 .balloon:before {
   content: "▲";
   font-size: 2rem;
-  color: hsl(215, 30%, 50%);
+  color: hsl(277, 99%, 48%);
   display: block;
   text-align: center;
   width: 100%;
@@ -102,13 +104,13 @@ button {
 
 .balloon:after {
   display: inline-block;
-  top: 16rem;
+  top: 11rem;
   position: absolute;
   height: 25rem;
   width: 0.2rem;
   margin: 0 auto;
   content: "";
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(62, 1, 103, 0.2);
 }
 
 .f0 {
