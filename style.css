@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+button {
+  border-radius: 2rem;
+  background: linear-gradient(30deg, #7191bf, #86ace3);
+  box-shadow: 0.1rem -0.1rem 0.5rem #7799c9, -0.1rem 0.1rem 0.5rem #83a9df;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1rem + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.balloon {
+  display: inline-block;
+  width: 10rem;
+  height: 11rem;
+  background: hsl(215, 50%, 65%);
+  border-radius: 80%;
+  position: relative;
+  box-shadow: inset -10px -10px 0 rgba(0, 0, 0, 0.07);
+  margin: 2rem 4rem;
+  transition: transform 0.5s ease;
+  z-index: 10;
+  animation: balloons 4s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes balloons {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-4rem) rotate(4deg);
+  }
+}
+
+.balloon:before {
+  content: "▲";
+  font-size: 2rem;
+  color: hsl(215, 30%, 50%);
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -1rem;
+  z-index: -100;
+}
+
+.balloon:after {
+  display: inline-block;
+  top: 16rem;
+  position: absolute;
+  height: 25rem;
+  width: 0.2rem;
+  margin: 0 auto;
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.f0 {
+  width: 10rem;
+  height: 11rem;
+}
+.f1 {
+  width: 13rem;
+  height: 14rem;
+}
+.f2 {
+  width: 16rem;
+  height: 17rem;
+}
+.f3 {
+  width: 20rem;
+  height: 21rem;
+}
+.f4 {
+  width: 22rem;
+  height: 23rem;
+}
+.f5 {
+  width: 30rem;
+  height: 29rem;
+}
