@@ -12,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   height: 100vh;
+  background-color: #bea1eb;
 }
 
 code {
@@ -24,6 +25,11 @@ button {
   background: linear-gradient(30deg, #9002f5, #c286e3);
   box-shadow: 0.1rem -0.1rem 0.5rem #7799c9, -0.1rem 0.1rem 0.5rem #83a9df;
   color: beige;
+}
+.img {
+  display: block;
+  margin: 0 auto;
+  align-self: center;
 }
 
 .App {
@@ -42,7 +48,6 @@ button {
 }
 
 .App-header {
-  background-color: #bea1eb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

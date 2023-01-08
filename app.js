@@ -10,7 +10,7 @@ sumar.addEventListener("click", function () {
   changeClass(previousClass, classIndex);
   contador.innerHTML = classIndex;
   if (classIndex == 5) {
-    imagen = `<img src='https://cdn.dribbble.com/users/234969/screenshots/5404808/medallion_burst_animation.gif' alt='gift'/>`;
+    imagen = `<img class='img' src='https://cdn.dribbble.com/users/234969/screenshots/5404808/medallion_burst_animation.gif' alt='gift'/>`;
     document.write(imagen);
   }
 });
