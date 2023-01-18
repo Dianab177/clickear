@@ -142,3 +142,7 @@ button {
   width: 30rem;
   height: 29rem;
 }
+.minie {
+  display: block;
+  margin: 0 auto;
+}
