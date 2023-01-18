@@ -30,10 +30,10 @@ sumar.addEventListener("click", function () {
   if (classIndex == años) {
     imagen = `
     <div style='display:flex; justify-content:center; flex-direction:column; align-item:center;'>
-    <h1 style='color:pink; font-size:3rem; margin-botom:0; text-align:center;'>¡¡¡Feliz Cumpleaños!!!</h1>
+    <h1 style='color:pink; font-size:2.8rem; margin-botom:0; text-align:center;'>¡¡¡Feliz Cumple!!!</h1>
     <h2 style='color:grey; font-size:2.5rem; margin-top:0; text-align:center;'>Valentina y Sofia</h2>
     <img id='minie' width="80%" src='./tenor-2.gif' alt='git minie'/>
-    <h4 style='text-align:center; margin-top:0 color:grey; font-size:2.5rem;'>Tia Diana y Abu Berta</h4>
+    <h4 style='text-align:center; margin-top:0 color:grey; font-weith:bold; font-size:2.5rem;'>Tia Diana y Abu Berta</h4>
     <p style='text-align:center; margin-top:-3rem; color:grey; font-size:2.5rem;'>las quieren muchoooo!!!!!</p>
     </div>`;
     document.write(imagen);
