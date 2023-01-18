@@ -28,7 +28,7 @@ sumar.addEventListener("click", function () {
   changeClass(previousClass, classIndex);
   contador.innerHTML = classIndex;
   if (classIndex == años) {
-    imagen = `<img id='minie' width="50%" src='./tenor.gif' alt='git minie'/>`;
+    imagen = `<img id='minie' width="100%" src='./tenor.gif' alt='git minie'/>`;
     document.write(imagen);
   }
 });
